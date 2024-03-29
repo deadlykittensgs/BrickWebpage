@@ -1,0 +1,59 @@
+:root {
+
+
+}
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+}
+
+.mainInfo {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+} 
+.sectionOne {
+    display: flex;
+    flex: 1;
+
+}
+.sectionTwo {
+    display: flex;
+    flex: 1;
+}
+
+.sectionThree {
+    display: flex;
+    flex: 1;
+}
+
+.sectionFour {
+    display: flex;
+    flex: 1;
+    background-color: antiquewhite;
+}
+
+.sectionFive {
+    display: flex;
+    flex: 1;
+}
+
+footer {
+
+}
