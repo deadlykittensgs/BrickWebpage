@@ -1,6 +1,6 @@
 :root {
-
-
+    --backgroundColor : black;
+    --white:white;
 }
 
 
@@ -18,9 +18,18 @@ body {
 
 header {
     display: flex;
-    background-color: black;
-    color: aliceblue;
+    background-color: var(--backgroundColor);
+    color: var(--white);
+    min-height: 100px;
+   
 }
+ .headerObjects {
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+    width: 100%;
+    height: 100%;
+ }
 
 .mainInfo {
     display: flex;
@@ -30,30 +39,58 @@ header {
 } 
 .sectionOne {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex: 1;
+    background-blend-mode: hue ;
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.WeUW1LDCCgRwV-ZbDI-cCgHaEK&pid=Api&P=0&h=220);
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    background-repeat: no-repeat; /* Adjust as needed */
+    background-color: rgba(0, 0, 0, 0.3); /* Adjust the opacity (last value) as needed */
 
 }
+.titleBox {
+    background-color: var(--backgroundColor);
+    color: var(--white);
+    height: 80%;
+    width: 60%;
+   text-align: center;
+  
+}
+
+.titleOfPage {
+    margin: 10%;
+}
+
 .sectionTwo {
     display: flex;
     flex: 1;
+    background-color: var(--white);
 }
+
 
 .sectionThree {
     display: flex;
     flex: 1;
+    background-color: var(--backgroundColor);
 }
 
 .sectionFour {
     display: flex;
     flex: 1;
-    background-color: antiquewhite;
+    background-color: var(--white);
 }
 
 .sectionFive {
     display: flex;
     flex: 1;
+    background-color: var(--backgroundColor);
 }
 
 footer {
-
+min-height: 120px;
+background-color: aqua;
+display: flex;
+justify-content: space-evenly;
 }
