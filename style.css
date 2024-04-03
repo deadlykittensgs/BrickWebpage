@@ -3,7 +3,9 @@
     --white:rgb(255, 255, 255);
     
 }
-
+html {
+    background-color: black;
+}
 button {
     padding: 15px;
     border-radius: 40px;
@@ -46,6 +48,18 @@ header {
     height: 100%;
  }
 
+ .headerObjects h1 {
+
+    margin: 20px;
+ }
+
+
+ .headerObjects button {
+
+    margin: 20px;
+ }
+
+
  .headerBtn {
     padding: 10px;
     border-radius: 40px;
@@ -67,8 +81,6 @@ header {
 } 
 .sectionOne {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex: 1;
     background-image: url(https://gratisography.com/wp-content/uploads/2021/01/gratisogarphy-distressed-brick-free-stock-photo-1168x780.jpg);
     background-size: cover; /* Adjust as needed */
@@ -77,16 +89,27 @@ header {
 }
 
 .titleBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: rgba(5, 5, 5, 0.582);
     color: var(--white);
     height: 100%;
     width: 100%;
    text-align: center;
-  
+   
 }
 
 .titleOfPage {
-    margin: 10%;
+ margin: 100px;
+}
+.titleBox p {
+    text-align: start;
+    width: 80%;
+}
+.titleBox button {
+    max-width: 150px;
+    margin: 20px;
 }
 
 .sectionTwo {
@@ -141,10 +164,38 @@ header {
 
 
 .sectionThree {
+    
     display: flex;
+    flex-direction: column;
     flex: 1;
-    background-color: var(--backgroundColor);
+    background-color: tan;
+    padding: 20px;
 }
+
+.ImageContainerThree {
+    display: flex;
+    justify-content: center;
+
+}
+.sectionThree img {
+   
+ 
+}
+
+.sectionThreeText {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: antiquewhite;
+    justify-content: space-evenly;
+
+}
+
+.sectionThreeText button {
+    max-width: 150px;
+}
+
+
 
 .sectionFour {
     display: flex;
@@ -152,11 +203,17 @@ header {
     background-color: var(--white);
 }  
 
-.sectionFive {
+.sectionFourText {
     display: flex;
-    flex: 1;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
     background-color: var(--backgroundColor);
+    color: white;
 }
+
+
 
 footer {
 min-height: 120px;
